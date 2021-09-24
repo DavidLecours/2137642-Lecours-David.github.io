@@ -105,30 +105,42 @@ body{
         font-size: 1.5em;
     }
     .link1{
+        transition: all 1000ms;
+        transition-timing-function: linear;
         background-color: black;
         height: 35px;
     }
     .link1:hover{
         background-color: grey;
+        transform: scale(120%);
     }
     .link2{
+        transition: all 1000ms;
+        transition-timing-function: linear;
         background-color: black;
         height: 35px;
     }
     .link2:hover{
         background-color: grey;
+        transform: scale(120%);
     }
     .link3{
+        transition: all 1000ms;
+        transition-timing-function: linear;
         background-color: black;
         height: 35px;
     }
     .link3:hover{
         background-color: grey;
+        transform: scale(120%);
     }
     .link4{
+        transition: all 1000ms;
+        transition-timing-function: linear;
         background-color: black;
         height: 35px;
     }
     .link4:hover{
         background-color: grey;
+        transform: scale(120%);
     }
