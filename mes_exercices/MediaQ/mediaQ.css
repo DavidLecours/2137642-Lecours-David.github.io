@@ -1,0 +1,134 @@
+body{
+    margin:0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    grid-template-rows: 150px 35px 600px 70px;
+    grid-gap: 0px;
+
+    grid-template-areas:
+    " header header header header"
+    "liens liens liens liens"
+    "menugauche articles articles articles"
+    "menugauche articles articles articles"
+    "menugauche articles articles articles"
+    "menugauche articles articles articles"
+    "footer footer footer footer";}
+ 
+    .header{
+        grid-area: header;
+        background-color: blue;
+    }
+
+    .liens{
+        grid-area: liens;
+        background-color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .menugauche{
+        grid-area: menugauche;
+        background-color: grey;
+        border-style: solid;
+        border-width: 1px
+    }
+
+    .articles{
+        grid-area: articles;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px
+    }
+
+    .footer{
+        grid-area: footer;
+        background-color: grey;
+        border-style: solid;
+        border-width: 1px;
+    }
+    a{
+        color:white;
+        font-size: 2em;
+    }
+    .header{
+        text-align: center;
+        color: white;
+    }
+    .liens{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .menugauche{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-start;
+    }
+    .image1{
+        width: 298px;
+        height: 200px;
+        font-size: 2em;
+        color: white;
+        justify-content: center;
+        background-color: lightskyblue;
+    }
+    .image2{
+        width: 1396px;
+        height: 300px;
+        font-size: 3em;
+        color: white;
+        background-color: lightskyblue;
+    }
+    .image3{
+        width: 1396px;
+        height: 300px;
+        font-size: 3em;
+        color: white;
+        background-color:lightskyblue;
+    }
+    .articles{
+        text-align: center;
+        border-style: none solid solid solid;
+        border-width: 8px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .titre1{
+        font-size: 3em;
+    }
+    .superResponsive{
+        font-size: 1.5em;
+    }
+    .link1{
+        background-color: black;
+        height: 35px;
+    }
+    .link1:hover{
+        background-color: grey;
+    }
+    .link2{
+        background-color: black;
+        height: 35px;
+    }
+    .link2:hover{
+        background-color: grey;
+    }
+    .link3{
+        background-color: black;
+        height: 35px;
+    }
+    .link3:hover{
+        background-color: grey;
+    }
+    .link4{
+        background-color: black;
+        height: 35px;
+    }
+    .link4:hover{
+        background-color: grey;
+    }
